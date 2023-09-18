@@ -1,0 +1,135 @@
+.container {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.sectionHeading {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 35%;
+}
+
+.contactDetails > div {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.contactDetails > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contactDetails > div > div:first-child {
+    background: #0DB760;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.contactDetails > div > div > i {
+    font-size: 30px;
+    color: white;
+}
+
+.contactDetails > div > div > span:first-child {
+    color: #92929D;
+}
+
+.contactDetails > div > div > span:last-child {
+    font-size: 18px;
+}
+
+.contactForm {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactInputs {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    padding: 15px 20px;
+    color: #92929D;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.textarea {
+    padding: 15px 20px;
+    color: #92929D;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 100%;
+    font-size: 18px;
+    height: 180px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .sectionHeading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 40px;
+    }
+
+    .contactDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

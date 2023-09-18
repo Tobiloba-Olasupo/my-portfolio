@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    gap: 60px;
+    padding: 60px 0;
+}
+
+.servicesContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    justify-content: center;
+}
+
+.servicesContent > h1 {
+    font-size: 45px;
+}
+
+.services {
+    width: 60%;
+    display: flex;
+    gap: 40px;
+}
+
+.services > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.services > div > div {
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.services > div > div > h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.services > div > div > i {
+    font-size: 35px;
+    color: #0DB760;
+}
+
+.services > div > div > span {
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .services {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .servicesContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
