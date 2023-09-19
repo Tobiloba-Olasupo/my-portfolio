@@ -5,6 +5,7 @@ import styles from "./hero.module.css";
 import Image from "next/image";
 import myPic from "../../../../public/myPic.png";
 import Link from "next/link";
+import "remixicon/fonts/remixicon.css";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
         </p>
         <div className={styles.buttons}>
         <button className="button">My Portfolio</button>
-        <Link href="/" className={styles.contactLink}>Contact</Link>
+        <Link href="/" className={styles.contactLink}>Contact <i class="ri-arrow-right-up-line"></i></Link>
         </div>
         
       </div>
