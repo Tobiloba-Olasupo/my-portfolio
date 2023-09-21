@@ -1,0 +1,36 @@
+/** @format */
+
+.container {
+  width: 250px;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  padding: 100px 20px 50px 20px;
+  transition: all 0.5s ease-out;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.25s ease-in;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

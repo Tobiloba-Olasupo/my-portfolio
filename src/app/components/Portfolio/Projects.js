@@ -4,6 +4,7 @@ import bluelight from "../../../../public/bluelight.png";
 import tonado from "../../../../public/tonado.png";
 import joyofmanygenerations from "../../../../public/joyofmanygenerations.png";
 import ifegwu from "../../../../public/ife-gwu.png";
+import procurewise from "../../../../public/procurewiseab.png"
 
 const Projects = [
   {
@@ -12,6 +13,13 @@ const Projects = [
       "Bluelight Energy is a renewable energy solution company.",
     image: bluelight,
     URL: "https://bluelightenergies.com/",
+  },
+  {
+    title: "ProcureWise AB",
+    description:
+      "ProcureWise AB is an e-commerce website in Sweden.",
+    image: procurewise,
+    URL: "https://procurewiseab.com/",
   },
   {
     title: "Tonado Global Services",

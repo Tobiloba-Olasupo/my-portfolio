@@ -6,7 +6,7 @@ import "remixicon/fonts/remixicon.css";
 
 const Services = () => {
   return (
-    <div className={styles.container}>
+    <div id="services" className={styles.container}>
       <div className={styles.servicesContent}>
         <h3 className='sectionTitle'>My Skills</h3>
         <h1>
@@ -24,14 +24,14 @@ const Services = () => {
       <div className={styles.services}>
         <div>
           <div>
-            <i class='ri-macbook-line'></i>
+            <i className='ri-macbook-line'></i>
             <h2>Website Design</h2>
             <span>
               Create user interface design with unique & modern ideas.
             </span>
           </div>
           <div>
-            <i class='ri-code-box-line'></i>
+            <i className='ri-code-box-line'></i>
             <h2>Web Development</h2>
             <span>
               Create user interface design with unique & modern ideas.
@@ -41,7 +41,7 @@ const Services = () => {
 
         <div>
           <div>
-            <i class='ri-brush-line'></i>
+            <i className='ri-brush-line'></i>
             <h2>Graphics Design</h2>
             <span>
               Create user interface design with unique & modern ideas.

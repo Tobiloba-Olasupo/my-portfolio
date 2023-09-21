@@ -6,7 +6,7 @@ import "remixicon/fonts/remixicon.css";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div id="contact" className={styles.container}>
       <div className={styles.sectionHeading}>
         <h3 className='sectionTitle'>Contact</h3>
         <h1>
@@ -22,7 +22,7 @@ const Contact = () => {
         <div className={styles.contactDetails}>
           <div>
             <div>
-              <i class='ri-whatsapp-line'></i>
+              <i className='ri-whatsapp-line'></i>
             </div>
             <div>
               <span>Call/WhatsApp me</span>
@@ -31,7 +31,7 @@ const Contact = () => {
           </div>
           <div>
             <div>
-              <i class='ri-mail-line'></i>
+              <i className='ri-mail-line'></i>
             </div>
             <div>
               <span>Email me</span>
@@ -54,7 +54,9 @@ const Contact = () => {
           </div>
           <textarea placeholder='Message' className={styles.textarea} />
           <div>
-            <button type="submit" className='button'>Submit Message</button>
+            <button type='submit' className='button'>
+              Submit Message
+            </button>
           </div>
         </form>
       </div>

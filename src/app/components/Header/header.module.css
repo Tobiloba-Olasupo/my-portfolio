@@ -3,6 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 0 120px;
+    background-color: white;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
 
 .logo h1{
@@ -18,9 +26,39 @@
     font-weight: 500;
 }
 
+.hamburger {
+    display: none;
+}
+
 
 @media screen and (max-width: 900px) {
+
+    .container {
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 20px;
+        z-index: 2;
+    }
+
     .nav  {
         display: none;
     }
+
+    .hamburger {
+        display: contents;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 600;
+        color: #0DB760;
+        z-index: 2;
+        transition: all .5s ease-in-out;
+    }
+
+    .hamburger i {
+        z-index: 2000;
+    }
+    
 }

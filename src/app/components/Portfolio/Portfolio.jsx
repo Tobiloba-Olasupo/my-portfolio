@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
   return (
-    <div className={styles.container}>
+    <div id="portfolio" className={styles.container}>
       <div>
         <h3 className='sectionTitle'>Portfolio</h3>
         <h1>
