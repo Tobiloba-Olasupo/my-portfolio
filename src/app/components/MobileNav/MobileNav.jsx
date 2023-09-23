@@ -11,7 +11,7 @@ const MobileNav = ({ open }) => {
       {open ? (
         <div className={styles.container}>
           <div className={styles.nav}>
-            <Link href='#home' className={styles.link}>
+            <Link href='#' className={styles.link}>
               Home
             </Link>
             <Link href='#services' className={styles.link}>

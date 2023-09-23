@@ -46,8 +46,8 @@
 }
 
 .projectDetails h2 {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .link {
@@ -76,5 +76,11 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+
+    .imageContainer {
+        position: relative;
+        height: 200px;
+        width: 100%;
     }
 }

@@ -53,8 +53,7 @@
   .container {
     flex-direction: column;
     gap: 50px;
-    margin-top: 60px;
-    padding: 100px 0 20px 0;
+    padding: 60px 0 40px 0;
   }
 
   .mainHeading {
