@@ -26,8 +26,6 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-    border: 2px solid #0DB760;
-    border-radius: 20px;
 }
 
 .imageContainer {
@@ -37,14 +35,14 @@
 }
 
 .image {
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 
 .projectDetails {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .projectDetails h2 {

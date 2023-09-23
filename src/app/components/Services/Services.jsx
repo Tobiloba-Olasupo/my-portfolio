@@ -6,15 +6,15 @@ import "remixicon/fonts/remixicon.css";
 
 const Services = () => {
   return (
-    <div id="services" className={styles.container}>
+    <div id='services' className={styles.container}>
       <div className={styles.servicesContent}>
         <h3 className='sectionTitle'>My Skills</h3>
         <h1>
           Hire Me For Your Next <span className='color'>Project</span>
         </h1>
         <p>
-          Here are some of my favorite projects that demonstrate my versatility,
-          attention to detail, and commitment to client satisfaction.
+          As a designer and a WordPress Expert, I assist companies in reaching
+          their desired objectives.
         </p>
         <div>
           <button className='button'>Hire Me</button>

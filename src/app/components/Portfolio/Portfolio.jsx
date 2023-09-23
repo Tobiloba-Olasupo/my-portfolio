@@ -39,7 +39,7 @@ const Portfolio = () => {
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
                 <Link href={project.URL} className={styles.link}>
-                  Visit Website
+                  Live View
                 </Link>
               </div>
             </div>
