@@ -1,5 +1,5 @@
 .container {
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,7 @@
     left: 0;
     z-index: 2;
     padding: 0 120px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.267);
     box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
 

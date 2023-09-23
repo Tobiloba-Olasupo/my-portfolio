@@ -79,21 +79,23 @@
 
 .input {
     padding: 15px 20px;
-    color: #92929D;
+    color: #dfdfdf;
     border-radius: 10px;
     outline: none;
-    border: none;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: transparent;
+    border: 2px solid white;
     width: 100%;
     font-size: 18px;
 }
 
 .textarea {
     padding: 15px 20px;
-    color: #92929D;
+    color: #dfdfdf;
+    background-color: transparent;
+    border: 2px solid white;
     border-radius: 10px;
     outline: none;
-    border: none;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     width: 100%;
     font-size: 18px;
