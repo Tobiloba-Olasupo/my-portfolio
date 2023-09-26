@@ -11,8 +11,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://uploads-ssl.webflow.com/64fc742a8d10cc4bf228570e/650d76aea4ee0ebccd64f7cb_Group%20361%20(6).png");
+  background-color: #000000;
   background-size: auto, 300px;
   background-attachment: scroll, scroll;
   color: #f8f8f8;
@@ -24,8 +23,9 @@ a {
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
+  color: #B3B3B3;
 }
 
 .color {

@@ -8,17 +8,14 @@ import Link from "next/link";
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className={styles.container}>
+    <div id='portfolio' className={styles.container}>
       <div>
         <h3 className='sectionTitle'>Portfolio</h3>
-        <h1>
-          My Creative Works
-          <br />
-          <span className='color'>Latest Projects</span>
-        </h1>
+        <h1>My Creative Works</h1>
         <p>
-          I have selected and mentioned here some of my latest projects to share
-          with you.
+          Here&apos;s a glimpse of some of my recent and exciting projects. Each
+          of them reflects my focus on user-centered design and my commitment to
+          excellence in user experience.
         </p>
       </div>
 
@@ -38,8 +35,8 @@ const Portfolio = () => {
               <div className={styles.projectDetails}>
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
-                <Link href={project.URL} className={styles.link}>
-                  Live View
+                <Link href={project.URL}>
+                  <button className={styles.button}>Live View</button>
                 </Link>
               </div>
             </div>
