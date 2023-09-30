@@ -2,6 +2,7 @@
 
 import React from "react";
 import styles from "./benefits.module.css";
+import Link from "next/link";
 
 const Benefits = () => {
   return (
@@ -37,7 +38,9 @@ const Benefits = () => {
       </div>
 
       <div className={styles.contact}>
-      <button className={styles.whatsappButton}><i class="ri-whatsapp-line"></i> <span>LET&apos;S CHAT ON WHATSAPP</span></button>
+        <Link href="https://wa.link/sj8wry">
+        <button className={styles.whatsappButton}><i class="ri-whatsapp-line"></i> <span>LET&apos;S CHAT ON WHATSAPP</span></button>
+        </Link>
       </div>
     </div>
   );

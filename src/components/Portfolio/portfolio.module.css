@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  border: 2px solid black;
+  border: 2px solid #0c0c0c;
   position: relative;
   padding-bottom: 50px;
 }

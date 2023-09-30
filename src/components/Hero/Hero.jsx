@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import Image from "next/image";
 import myPic from "../../../public/myPic.png";
-import wordpress from "../../../public/wordpress.png"
+import wordpress from "../../../public/wordpress.png";
 import Link from "next/link";
 import "remixicon/fonts/remixicon.css";
 
@@ -21,8 +21,15 @@ const Hero = () => {
           audience will love.
         </p>
         <div className={styles.contact}>
-          <button className={styles.whatsappButton}><i class="ri-whatsapp-line"></i> <span>LET&apos;S CHAT ON WHATSAPP</span></button>
-          <Link href='/' className={styles.emailLink}>
+          <Link href='https://wa.link/sj8wry'>
+            <button className={styles.whatsappButton}>
+              <i class='ri-whatsapp-line'></i>{" "}
+              <span>LET&apos;S CHAT ON WHATSAPP</span>
+            </button>
+          </Link>
+          <Link
+            href='mailto:olasupokhalid44@gmail.com'
+            className={styles.emailLink}>
             OR SEND ME AN EMAIL <i className='ri-arrow-right-up-line'></i>
           </Link>
         </div>
@@ -30,7 +37,7 @@ const Hero = () => {
       <div className={styles.imageContainer}>
         <Image src={myPic} alt='Tobiloba' fill className={styles.image} />
         <div className={styles.wordpress}>
-          <Image src={wordpress} alt="wordpress" fill/>
+          <Image src={wordpress} alt='wordpress' fill />
         </div>
       </div>
     </div>
