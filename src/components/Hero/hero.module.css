@@ -1,0 +1,178 @@
+/** @format */
+
+.container {
+  display: flex;
+  padding: 60px 120px 120px 120px;
+  margin-top: 0;
+  background: #000000;
+  color: white;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  flex: 1;
+}
+
+.mainHeading {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.description {
+  color: #a5a5a5;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.whatsappButton {
+  font-size: 16px;
+  background-color: #0db760;
+  border: 2px solid #0db760;
+  padding: 18px 30px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: 0.5s all ease;
+}
+
+.whatsappButton:hover {
+  background-color: transparent;
+  border: 2px solid #a5a5a5;
+}
+
+.whatsappButton i {
+  font-size: 26px;
+}
+
+.emailLink {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 500px;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.wordpress {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  bottom: 100px;
+  right: 20px;
+  animation: rotation 6s infinite linear;
+  transition: 5s all ease;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 60px 60px 120px 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 60px 140px 40px 140px;
+  }
+
+  .heroContent {
+    gap: 20px;
+  }
+
+  .mainHeading {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .imageContainer {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .emailLink {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 60px 40px 40px 40px;
+  }
+
+  .wordpress {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 80px;
+    right: 15px;
+    animation: rotation 6s infinite linear;
+    transition: 5s all ease;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 0;
+    padding: 40px 25px 60px 25px;
+  }
+
+  .image {
+    margin-left: -80px;
+  }
+}

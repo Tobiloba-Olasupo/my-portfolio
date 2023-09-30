@@ -5,11 +5,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 120px;
+  background: #000000;
+  color: white;
 }
 
-.logo h1 {
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logoLink i {
+  font-size: 35px;
+  color: #0db760;
+}
+
+.logoLink h1 {
   font-size: 28px;
-  color: #f8f8f8;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .nav {
@@ -29,6 +44,9 @@
     height: 80px;
     width: 100%;
     border-bottom: 2px solid rgba(255, 255, 255, 0.048);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .nav {
@@ -42,7 +60,6 @@
     font-weight: 600;
     color: #0db760;
     z-index: 2;
-    
   }
 
   .hamburger i {

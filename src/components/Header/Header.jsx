@@ -9,14 +9,13 @@ import MobileNav from "../MobileNav/MobileNav";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  
+
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <Link href="/">
-        <h1>To<span className="color">bi</span></h1>
+        <Link className={styles.logoLink} href='/'>
+        <i class="ri-bubble-chart-fill"></i> <h1>Tobi</h1>
         </Link>
-        
       </div>
 
       <div className={styles.nav}>
@@ -30,9 +29,8 @@ const Header = () => {
         <i
           open={open}
           onClick={() => setOpen(!open)}
-          className={open ? "ri-close-line" : 'ri-menu-line'}></i>
+          className={open ? "ri-close-line" : "ri-menu-line"}></i>
       </div>
-
       <MobileNav open={open} />
     </div>
   );

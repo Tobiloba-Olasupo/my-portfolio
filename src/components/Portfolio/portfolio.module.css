@@ -1,0 +1,158 @@
+/** @format */
+
+.container {
+  padding: 120px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.description {
+  color: rgb(48, 48, 48);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.projectImageContainer {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.projectImage{
+    object-fit: cover;
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.projectDescription {
+    color: rgb(48, 48, 48);
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+.viewLink {
+  background-color: rgb(231, 233, 255);
+  height: 60px;
+  width: 60px;
+  color: #000000;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.workLink button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 60px 60px 120px 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 140px 100px 140px;
+  }
+
+  .heading {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .projectImageContainer {
+    height: 260px;
+  }
+
+  .projectDetails {
+    padding: 20px;
+  }
+
+  .projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+  }
+
+  .container > div:first-child {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .projectDescription {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px 40px 80px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 25px 80px 25px;
+  }
+}
